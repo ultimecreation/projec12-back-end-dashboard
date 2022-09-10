@@ -120,31 +120,31 @@ const USER_AVERAGE_SESSIONS = [
         userId: 12,
         sessions: [
             {
-                day: 1,
+                day: "L",
                 sessionLength: 30
             },
             {
-                day: 2,
+                day: "M",
                 sessionLength: 23
             },
             {
-                day: 3,
+                day: "M",
                 sessionLength: 45
             },
             {
-                day: 4,
+                day: "J",
                 sessionLength: 50
             },
             {
-                day: 5,
+                day: "V",
                 sessionLength: 0
             },
             {
-                day: 6,
+                day: "S",
                 sessionLength: 0
             },
             {
-                day: 7,
+                day: "D",
                 sessionLength: 60
             }
         ]
@@ -189,12 +189,12 @@ const USER_PERFORMANCE = [
     {
         userId: 12,
         kind: {
-            1: 'cardio',
-            2: 'energy',
-            3: 'endurance',
-            4: 'strength',
-            5: 'speed',
-            6: 'intensity'
+            1: 'intensity',
+            2: 'speed',
+            3: 'strength',
+            4: 'endurance',
+            5: 'energy',
+            6: 'cardio'
         },
         data: [
             {
